@@ -1,0 +1,61 @@
+
+img {
+	height: 80px;
+	width: 80px;
+	border: 1px solid #999;
+}
+
+.container {
+	position: relative;
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #EEE;
+	min-height: 486px;
+	overflow: auto;
+}
+
+.left {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 200px;
+	background-color: #FFF;
+}
+
+.left img {
+	float: left;
+	margin: 20px;
+}
+
+.left h5 {
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+.center {
+	float: left;
+	background-color: #FFF;
+	margin-left: 240px;
+	margin-right: 160px;
+	margin-top: 20px;
+	width: auto;
+	padding: 0 20px 20px 20px;		
+}
+
+.center section {
+	margin-top: 20px;
+}
+
+.right {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: #FFF;
+	width: 120px;
+	padding-bottom: 20px;
+}
+
+.right img {
+	margin-top: 20px;
+	margin-left: 20px;
+}
