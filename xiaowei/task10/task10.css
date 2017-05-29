@@ -1,0 +1,49 @@
+/*任务十：Flexbox 布局练习*/
+* {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #888;
+	padding: 20px;
+}
+
+.container > div {
+	width: 150px; 
+	border: 1px solid #f00;
+	margin-bottom: 20px;
+}
+
+.container > div:nth-child(1) {
+	height: 120px;
+}
+
+.container > div:nth-child(2) {
+	height: 100px;
+}
+
+.container > div:nth-child(3) {
+	height: 40px;
+}
+
+.container > div:nth-child(4) {
+	height: 200px;
+	border: 1px solid #00f;
+}
+
+@media only screen and (max-width: 640px) {
+	.container {
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.container > div:nth-child(4) {
+	order: -1;
+	}
+}
+
+
