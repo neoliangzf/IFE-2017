@@ -489,8 +489,13 @@ header a:hover {
 
 .application {
 	padding-top: 118px;
-	
 	height: 632px;
+}
+
+.application .wrap {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 108px;
 }
 
 .application .title {
@@ -520,8 +525,6 @@ header a:hover {
 .application-left {
 	float: left;
 	width: 290px;
-	margin-left: 138px;
-	margin-top: 108px;
 }
 
 .application-left .title {
@@ -553,8 +556,6 @@ header a:hover {
 
 .application-right {
 	float: right;
-	margin-top: 106px; 
-	margin-right: 141px;
 }
 
 .application-right input,textarea {
