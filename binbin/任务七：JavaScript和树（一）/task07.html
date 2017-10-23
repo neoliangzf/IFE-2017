@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>task07</title>
+	<style>
+		div {
+			border: 1px solid #000;
+			margin: 10px;
+			background-color: white;
+		}
+		.root {
+			display: flex;
+			flex-wrap: wrap;
+			width: 400px;
+			height: 259px;
+			justify-content: center;
+			align-items: center;
+		}
+		.depth-1, .depth-2, .depth-3 {
+			display: flex;
+		}
+		.depth-4 {
+			min-height: 10px;
+			min-width: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<button id="DLR">前序遍历</button>
+	<button id="LDR">中序遍历</button>
+	<button id="LRD">后序遍历</button>
+
+	<div class="root">
+		<div class="depth-1">
+			<div class="depth-2">
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+			</div>
+			<div class="depth-2">
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="depth-1">
+			<div class="depth-2">
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+			</div>
+			<div class="depth-2">
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+				<div class="depth-3">
+					<div class="depth-4"></div>
+					<div class="depth-4"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="task07.js"></script>
+</body>
+</html>

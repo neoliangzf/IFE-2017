@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>task05</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body {
+				text-align: center;
+			}
+			#queue div {
+				display: inline-block;				
+				background-color: #e00;
+				margin: 2px;
+				width: 20px;
+				color: #fff;
+				text-align: center;
+				line-height: 30px;
+				vertical-align: bottom;
+			} 	
+			#queue div:hover {
+				background-color: #f77;
+			}
+			#queue {
+				text-align: left;
+				margin: 0 auto;
+				width: 62%;
+				overflow: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<input id="input" type="text">
+		<button id="btnLeftIn" type="button">左侧入</button>	
+		<button id="btnRightIn" type="button">右侧入</button>
+		<button id="btnLeftOut" type="button">左侧出</button>
+		<button id="btnRightOut" type="button">右侧出</button>
+		<button id="sort" type="button">冒泡排序</button>		
+		<div id="queue"></div>
+		<script src="task05.js"></script>
+	</body>
+</html>

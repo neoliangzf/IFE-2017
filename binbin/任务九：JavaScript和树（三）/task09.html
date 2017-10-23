@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>task09</title>
+	<style>
+		div {
+			border: 1px solid #000;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 10px;
+			padding: 0 10px;
+			background-color: #fff;
+		}
+		.root {
+			width: 80%;
+			margin: 10px auto;
+		}
+
+	</style>
+</head>
+<body>
+	<button id="DLR" type="button">开始遍历</button>
+	<br>
+	<input id="search" type="text">
+	<button id="btnSearch" type="button">搜索</button>
+	<br>
+	<input id="input" type="text">
+	<button id="add" type="button">增加</button>
+	<br>
+	<button id="delete" type="button">删除</button>
+	<!-- 树 -->
+	<div class="root">中国菜系
+		<div>川菜</div>
+		<div>鲁菜<div>济南菜<div>九转大肠</div>
+			</div>
+			<div>胶东菜<div>葱烧海参
+			</div>
+			</div>
+			<div>孔府菜</div>
+			<div>博山菜<div>博山豆腐箱</div>
+			</div>
+			<div>鲁西南<div>单县羊肉汤</div>
+			</div>
+		</div>
+		<div>粤菜<div>广州菜
+				<div>烧鹅</div>
+				<div>蜜汁叉烧</div>
+			</div>
+			<div>潮州菜<div>卤鹅肝</div>
+				<div>蚝烙</div>
+				<div>沙茶牛肉</div>
+			</div>
+			<div>东江菜<div>客家酿豆腐</div>
+				<div>梅菜扣肉</div>
+				<div>盐焗鸡</div>
+			</div>
+		</div>
+		<div>苏菜</div>
+		<div>浙菜</div>
+		<div>闽菜</div>
+		<div>湘菜</div>
+		<div>徽菜</div>
+	</div>
+	<script src="task09.js"></script>
+</body>
+</html>

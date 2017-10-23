@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>task06</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body {
+				text-align: center;
+			}
+			#queue div {
+				float: left;
+				background-color: #e00;
+				margin: 10px;
+				padding: 0 5px;
+				min-width: 40px;
+				color: #fff;
+				text-align: center;
+				line-height: 30px;
+			}
+			#queue {
+				margin: 0 auto;
+				width: 62%;
+			}
+			#search {
+				margin-left: 50px;
+			}
+			textarea {
+				height: 100px;
+				width: 500px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<textarea name="" id="input" cols="55" rows="5"></textarea><br>
+		<button id="btnLeftIn" type="button">左侧入</button>	
+		<button id="btnRightIn" type="button">右侧入</button>
+		<button id="btnLeftOut" type="button">左侧出</button>
+		<button id="btnRightOut" type="button">右侧出</button>
+
+		<input id="search" type="text">
+		<button id="btnSearch" type="button">搜索</button>
+		<div id="queue">
+		</div>
+		<script src="task06.js"></script>
+	</body>
+</html>
